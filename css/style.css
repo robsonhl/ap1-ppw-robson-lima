@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("harold.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #e7dfdb;
+}
+
+#menu ul{
+    padding: 0;
+    margin: 0;
+    background-color: #EDEDED4D;
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li{ display: inline; padding: 20px; font-family: 'Montserrat', sans-serif; font-size: large}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color:#EDEDED1A;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED1A;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D64D;
+    color: #FFFFFF;
+    border-bottom:3px solid #EA0000;
+    font-color
+}
+#eu{
+    font-size: larger;
+}
+.container{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+
+    font-family: 'Montserrat', sans-serif; font-size: 4em;
+}
+#subtitle{
+    margin-top: -25px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif; font-size: 1em; font-weight: inherit;
+}
+#content{
+    display: block;
+}
+.about-container{
+    display: flex;
+
+    padding-top: 3%;
+    justify-content: center;
+
+}
+.about-title{
+    padding-left: 15%;
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif; font-size: 3em;
+    font-weight: lighter;
+}
+
+.item {
+    width: 20%;
+    padding: 0 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-contact{
+    margin-top: 10px;
+    background-color: lightseagreen;
+    border: 0;
+    border-radius: 12px;
+    width: 200px;
+    height: 30px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form input{
+    margin: 10px;
+    width: 400px;
+}
+.form input.message{
+    margin: 10px;
+    height: 900px;
+}
+
+.enviar{
+    width: 900px;
+
+}
+
+#message{
+    width: 400px;
+    height: 50px;
+}
